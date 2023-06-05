@@ -125,11 +125,12 @@ def rectarea(request):
         context['b'] = b
         print('Area=',area)
     return render(request,'myapp/math.html',context)
-    ```
+  ```
 
 ## OUTPUT:
 ## SERVER OUTPUT:
 ![Screenshot 2023-06-05 131214](https://github.com/shara56/mathserver/assets/113497104/8372afab-41de-4efd-b22d-eeb27684fec5)
+
 
 
 ## CLIENT OUTPUT:
